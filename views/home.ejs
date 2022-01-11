@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+
+<div>
+  <div class="container">
+    <i class="bi bi-patch-question big-icon"></i>
+    <h1 class="display-6 inline">Japanese Questions</h1>
+    <p class="lead">Refresh for a new question</p>
+    <hr>
+    <p class="question"><%= randomQuesiton %></p>
+    <hr>
+    <p class="lead">Register or log in to add to the quesiton pool</p>
+    <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+    <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
